@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 해피해킹 메모장</title>
+    <link>https://notes.hphk.io/categories/</link>
+    <description>Recent content in Categories on 해피해킹 메모장</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 20 Jan 2021 16:57:00 +0900</lastBuildDate><atom:link href="https://notes.hphk.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>language</title>
+      <link>https://notes.hphk.io/categories/language/</link>
+      <pubDate>Wed, 20 Jan 2021 16:57:00 +0900</pubDate>
+      
+      <guid>https://notes.hphk.io/categories/language/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
