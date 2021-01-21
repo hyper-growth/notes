@@ -6,7 +6,168 @@
         <description>Recent content on 해피해킹 메모장</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
-        <lastBuildDate>Wed, 20 Jan 2021 16:57:00 +0900</lastBuildDate><atom:link href="https://notes.hphk.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Jan 2021 15:10:00 +0900</lastBuildDate><atom:link href="https://notes.hphk.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Git Bash with Windows Terminal</title>
+        <link>https://notes.hphk.io/p/git-bash-with-windows-terminal/</link>
+        <pubDate>Thu, 21 Jan 2021 15:10:00 +0900</pubDate>
+        
+        <guid>https://notes.hphk.io/p/git-bash-with-windows-terminal/</guid>
+        <description>&lt;img src="https://notes.hphk.io/p/git-bash-with-windows-terminal/images/windows-terminal.jpeg" alt="Featured image of post Git Bash with Windows Terminal" /&gt;&lt;blockquote&gt;
+&lt;p&gt;Git Bash가 설치되어 있어야 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1-windows-terminal-설치&#34;&gt;1. Windows Terminal 설치&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/store/productId/9N0DX20HK701&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Store&lt;/a&gt;에서 &lt;strong&gt;Windows Terminal&lt;/strong&gt;을 설치합니다.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 128; flex-basis: 308px&#34;&gt;
+		&lt;a href=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/1.png&#34; data-size=&#34;1801x1399&#34;&gt;&lt;img src=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/1.png&#34;
+				srcset=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/1_hu3bd1d8e7047066115ca79f4600024118_669761_480x0_resize_box_2.png 480w, https://notes.hphk.io/p/git-bash-with-windows-terminal/images/1_hu3bd1d8e7047066115ca79f4600024118_669761_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1801&#34;
+				height=&#34;1399&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Microsoft Store - Windows Terminal&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Microsoft Store - Windows Terminal&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-windows-terminal-실행&#34;&gt;2. Windows Terminal 실행&lt;/h2&gt;
+&lt;p&gt;처음 실행하면 기본으로 PowerShell, CMD, Azure Cloud Shell을 사용할 수 있도록 되어 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 182; flex-basis: 438px&#34;&gt;
+		&lt;a href=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/2.png&#34; data-size=&#34;1733x949&#34;&gt;&lt;img src=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/2.png&#34;
+				srcset=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/2_hu8724711059a78e37e71bcc9c96d7d8ec_69488_480x0_resize_box_2.png 480w, https://notes.hphk.io/p/git-bash-with-windows-terminal/images/2_hu8724711059a78e37e71bcc9c96d7d8ec_69488_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1733&#34;
+				height=&#34;949&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Windows Terminal shell list&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Windows Terminal shell list&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;설정을 통해 추가적인 Shell(Bash)을 사용할 수 있도록 해봅시다.&lt;/p&gt;
+&lt;h2 id=&#34;3-windows-terminal-설정&#34;&gt;3. Windows Terminal 설정&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;설정&lt;/code&gt; 메뉴를 클릭하거나 &lt;code&gt;ctrl + ,&lt;/code&gt; 단축키를 사용하여, 설정 파일을 열 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 142; flex-basis: 342px&#34;&gt;
+		&lt;a href=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/3.png&#34; data-size=&#34;1658x1162&#34;&gt;&lt;img src=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/3.png&#34;
+				srcset=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/3_hu3209302c948d7dec3a6783e4ef7faf78_137886_480x0_resize_box_2.png 480w, https://notes.hphk.io/p/git-bash-with-windows-terminal/images/3_hu3209302c948d7dec3a6783e4ef7faf78_137886_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1658&#34;
+				height=&#34;1162&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;settings.json&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;settings.json&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;메모장으로 열리기 때문에 편집이 불편할 수 있습니다. 다른 에디터를 사용하실 분들은 &lt;code&gt;다른 이름으로 저장&lt;/code&gt; 메뉴 또는 &lt;code&gt;ctrl + shift + s&lt;/code&gt; 단축키를 사용하여 &amp;lsquo;다른 이름으로 저장&amp;rsquo; 창을 열고, 해당 위치를 원하는 에디터로 열어 설정 파일을 편집합니다. 여기서는 VS Code를 사용하겠습니다. &lt;code&gt;Code로 열기&lt;/code&gt; 컨텍스트 메뉴를 통해 VS Code에서 설정 파일이 존재하는 폴더를 열어 줍니다.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 132; flex-basis: 317px&#34;&gt;
+		&lt;a href=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/4.png&#34; data-size=&#34;1179x890&#34;&gt;&lt;img src=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/4.png&#34;
+				srcset=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/4_hu6d86b20414f1327987f063b4a1a0cef8_85863_480x0_resize_box_2.png 480w, https://notes.hphk.io/p/git-bash-with-windows-terminal/images/4_hu6d86b20414f1327987f063b4a1a0cef8_85863_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1179&#34;
+				height=&#34;890&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Open with VS Code&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Open with VS Code&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;profiles&lt;/code&gt; 항목에 &lt;code&gt;Git Bash&lt;/code&gt; 프로필을 추가합니다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;profiles&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;nt&#34;&gt;&amp;#34;defaults&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            
+        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+        &lt;span class=&#34;nt&#34;&gt;&amp;#34;list&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;guid&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;{61c54bbd-c2c6-5271-96e7-009a87ff44bf}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Windows PowerShell&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;commandline&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;powershell.exe&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;hidden&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;guid&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;{0caa0dad-35be-5f56-a8ff-afceeeaa6101}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;명령 프롬프트&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;commandline&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;cmd.exe&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;hidden&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;guid&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;{b453ae62-4e3d-5e58-b989-0a998ec441b8}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;hidden&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Azure Cloud Shell&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;source&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Windows.Terminal.Azure&amp;#34;&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;guid&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;{124fc1da-dadc-4276-9c4e-f0524ba57a49}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Git Bash&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;commandline&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\&amp;#34;%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\&amp;#34; -i -l&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;icon&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;startingDirectory&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;%USERPROFILE%&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;cursorShape&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;filledBox&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+                &lt;span class=&#34;nt&#34;&gt;&amp;#34;hidden&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;이 때 프로필의 &lt;code&gt;guid&lt;/code&gt;는 해당 프로필의 고유 아이디이며, 저 포멧을 사용하고 다른 값과 중복되지만 않으면 어떠한 값도 사용 가능합니다. 위의 guid를 그대로 사용해도 되지만, 새롭게 생성하고 싶으신 분들은 PowerShell에서 아래의 명령어를 입력하여 새롭게 생성할 수 있습니다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;no&#34;&gt;[guid]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;NewGuid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;figure style=&#34;flex-grow: 182; flex-basis: 437px&#34;&gt;
+		&lt;a href=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/5.png&#34; data-size=&#34;1732x950&#34;&gt;&lt;img src=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/5.png&#34;
+				srcset=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/5_hu6d763b16c7e2c8d4db4e6dc2e2ca5cfe_66883_480x0_resize_box_2.png 480w, https://notes.hphk.io/p/git-bash-with-windows-terminal/images/5_hu6d763b16c7e2c8d4db4e6dc2e2ca5cfe_66883_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1732&#34;
+				height=&#34;950&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Generate new guid&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Generate new guid&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;다양한 프로필 설정법은 &lt;a class=&#34;link&#34; href=&#34;https://aka.ms/terminal-profile-settings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://aka.ms/terminal-profile-settings&lt;/a&gt; 에서 확인 가능합니다.&lt;/p&gt;
+&lt;p&gt;저장을 하고 나면 아래와 같이 &lt;code&gt;Git Bash&lt;/code&gt;가 추가된 것을 확인할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 182; flex-basis: 437px&#34;&gt;
+		&lt;a href=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/6.png&#34; data-size=&#34;1732x950&#34;&gt;&lt;img src=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/6.png&#34;
+				srcset=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/6_hu73d486f91eb7b06f97310bc7f24a5b0b_72158_480x0_resize_box_2.png 480w, https://notes.hphk.io/p/git-bash-with-windows-terminal/images/6_hu73d486f91eb7b06f97310bc7f24a5b0b_72158_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1732&#34;
+				height=&#34;950&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Git Bash on shell list&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Git Bash on shell list&lt;/figcaption&gt;
+		
+	&lt;/figure&gt; &lt;figure style=&#34;flex-grow: 182; flex-basis: 438px&#34;&gt;
+		&lt;a href=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/7.png&#34; data-size=&#34;1733x949&#34;&gt;&lt;img src=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/7.png&#34;
+				srcset=&#34;https://notes.hphk.io/p/git-bash-with-windows-terminal/images/7_hubba4f0514edabe2f89604561ab55228b_44810_480x0_resize_box_2.png 480w, https://notes.hphk.io/p/git-bash-with-windows-terminal/images/7_hubba4f0514edabe2f89604561ab55228b_44810_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;1733&#34;
+				height=&#34;949&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Git Bash with Windows Terminal&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Git Bash with Windows Terminal&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4-기본-프로필-설정&#34;&gt;4. 기본 프로필 설정&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;새 탭을 열었을 때 기본으로 나오는 프로필을 변경하려면, 기본으로 설정하고자 하는 프로필의 &lt;code&gt;guid&lt;/code&gt;를 &lt;code&gt;defaultProfile&lt;/code&gt; 키의 값으로 지정하면 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;defaultProfile&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[guid]&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;    
+
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;defaultProfile&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;{124fc1da-dadc-4276-9c4e-f0524ba57a49}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
         <title>Arrow Function vs Regular Function</title>
         <link>https://notes.hphk.io/p/arrow-function-vs-regular-function/</link>
         <pubDate>Wed, 20 Jan 2021 16:57:00 +0900</pubDate>

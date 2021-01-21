@@ -6,7 +6,34 @@
     <description>Recent content in Tags on 해피해킹 메모장</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 20 Jan 2021 16:57:00 +0900</lastBuildDate><atom:link href="https://notes.hphk.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jan 2021 15:10:00 +0900</lastBuildDate><atom:link href="https://notes.hphk.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://notes.hphk.io/tags/git/</link>
+      <pubDate>Thu, 21 Jan 2021 15:10:00 +0900</pubDate>
+      
+      <guid>https://notes.hphk.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git bash</title>
+      <link>https://notes.hphk.io/tags/git-bash/</link>
+      <pubDate>Thu, 21 Jan 2021 15:10:00 +0900</pubDate>
+      
+      <guid>https://notes.hphk.io/tags/git-bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://notes.hphk.io/tags/windows/</link>
+      <pubDate>Thu, 21 Jan 2021 15:10:00 +0900</pubDate>
+      
+      <guid>https://notes.hphk.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>javascript</title>
       <link>https://notes.hphk.io/tags/javascript/</link>
