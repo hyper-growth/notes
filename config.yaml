@@ -20,7 +20,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /favicon.ico
 
     footer:
         author: Happy Hacking Inc.
