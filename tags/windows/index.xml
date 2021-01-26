@@ -1,26 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>windows on 해피해킹 메모장</title>
-    <link>https://notes.hphk.io/tags/windows/</link>
-    <description>Recent content in windows on 해피해킹 메모장</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Thu, 21 Jan 2021 15:10:00 +0900</lastBuildDate><atom:link href="https://notes.hphk.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Git Bash with Windows Terminal</title>
-      <link>https://notes.hphk.io/p/git-bash-with-windows-terminal/</link>
-      <pubDate>Thu, 21 Jan 2021 15:10:00 +0900</pubDate>
-      
-      <guid>https://notes.hphk.io/p/git-bash-with-windows-terminal/</guid>
-      <description>Git Bash가 설치되어 있어야 합니다.
- 1. Windows Terminal 설치 Microsoft Store에서 Windows Terminal을 설치합니다.
- Microsoft Store - Windows Terminal 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>windows on 해피해킹 메모장</title><link>https://notes.hphk.io/tags/windows/</link><description>Recent content in windows on 해피해킹 메모장</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><lastBuildDate>Thu, 21 Jan 2021 15:10:00 +0900</lastBuildDate><atom:link href="https://notes.hphk.io/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Bash with Windows Terminal</title><link>https://notes.hphk.io/p/git-bash-with-windows-terminal/</link><pubDate>Thu, 21 Jan 2021 15:10:00 +0900</pubDate><guid>https://notes.hphk.io/p/git-bash-with-windows-terminal/</guid><description>Git Bash가 설치되어 있어야 합니다.
+1. Windows Terminal 설치 Microsoft Store에서 Windows Terminal을 설치합니다.
+Microsoft Store - Windows Terminal
 2. Windows Terminal 실행 처음 실행하면 기본으로 PowerShell, CMD, Azure Cloud Shell을 사용할 수 있도록 되어 있습니다.
- Windows Terminal shell list 
+Windows Terminal shell list
 설정을 통해 추가적인 Shell(Bash)을 사용할 수 있도록 해봅시다.
-3. Windows Terminal 설정 설정 메뉴를 클릭하거나 ctrl + , 단축키를 사용하여, 설정 파일을 열 수 있습니다.</description>
-    </item>
-    
-  </channel>
-</rss>
+3. Windows Terminal 설정 설정 메뉴를 클릭하거나 ctrl + , 단축키를 사용하여, 설정 파일을 열 수 있습니다.</description></item></channel></rss>
