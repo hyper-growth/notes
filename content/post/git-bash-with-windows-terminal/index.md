@@ -2,7 +2,7 @@
 title: "Git Bash with Windows Terminal"
 description: "Windows Terminal에서 Git Bash를 추가하여 사용하는 방법에 대해 알아봅시다."
 date: "2021-01-21 15:10:00+0900"
-categories: ["tools"]
+categories: ["tool"]
 tags: ["git", "git bash", "windows"]
 image: 'images/windows-terminal.jpeg'
 draft: false
