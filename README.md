@@ -1,6 +1,6 @@
 # 해피해킹 메모장
 
-![Opengraph Image](static/og-image.png)
+![Opengraph Image](assets/og-image.png)
 
 ---
 
