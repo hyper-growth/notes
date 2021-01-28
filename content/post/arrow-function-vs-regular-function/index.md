@@ -9,7 +9,7 @@ categories: [
 tags: [
     "javascript",
 ]
-image: 'images/carbon.png'
+image: "images/carbon.png"
 draft: false
 ---
 

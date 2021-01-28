@@ -4,7 +4,7 @@ description: "Windows Terminal에서 Git Bash를 추가하여 사용하는 방�
 date: "2021-01-21 15:10:00+0900"
 categories: ["tool"]
 tags: ["git", "git bash", "windows"]
-image: 'images/windows-terminal.jpeg'
+image: "images/windows-terminal.jpeg"
 draft: false
 ---
 
