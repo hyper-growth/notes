@@ -1,3 +1,7 @@
+:root {
+    --card-padding: 40px;
+}
+
 [data-scheme="light"] {
     --pre-background-color: #272822;
     --pre-text-color: #f8f8f2;
@@ -7,10 +11,29 @@
     margin-bottom: 10px;
 }
 
-.article-title.large {
-    font-size: 3.8rem;
+.main-article {
+    & .article-title {
+        font-size: 3.8rem;
 
-    @media (min-width: $on-desktop-large) {
-        font-size: 4rem;
+        @media (min-width: $on-desktop-large) {
+            font-size: 4rem;
+        }
+    }
+
+    .article-page & .article-header .article-details {
+        padding-bottom: 25px;
+    }
+}
+
+.site-name.with-icon {
+    margin-bottom: -5px;
+}
+
+
+.container {
+    &.compact {
+        .left-sidebar.width-auto {
+            width: auto;
+        }
     }
 }
