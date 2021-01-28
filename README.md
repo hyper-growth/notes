@@ -7,7 +7,7 @@
 ## Table of Contents
 - [로컬 서버 설정 및 실행](#로컬-서버-설정-및-실행)
   - [Hugo 설치](#Hugo-설치)
-    - [macOS](#masos)
+    - [macOS](#macos)
     - [Linux](#linux-snap)
     - [Windows](#windows)
   - [로컬 서버 실행](#로컬-서버-실행)
@@ -53,7 +53,7 @@ $ scoop install hugo-extended
 $ hugo version
 ```
 
-#### Linux
+#### Linux (Snap)
 
 Snap을 통해 Hugo를 설치합니다.
 
