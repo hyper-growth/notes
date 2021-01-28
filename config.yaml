@@ -1,4 +1,5 @@
 baseURL: https://notes.hphk.io
+enableRobotsTXT: true
 title: 해피해킹 메모장
 languageCode: ko-kr
 theme: hugo-theme-stack
