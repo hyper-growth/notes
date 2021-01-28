@@ -6,3 +6,11 @@
 .widget-icon {
     margin-bottom: 10px;
 }
+
+.article-title.large {
+    font-size: 3.8rem;
+
+    @media (min-width: $on-desktop-large) {
+        font-size: 4rem;
+    }
+}
