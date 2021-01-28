@@ -7,6 +7,9 @@
 ## Table of Contents
 - [로컬 서버 설정 및 실행](#로컬-서버-설정-및-실행)
   - [Hugo 설치](#Hugo-설치)
+    - [macOS](#masos)
+    - [Linux](#linux-snap)
+    - [Windows](#windows)
   - [로컬 서버 실행](#로컬-서버-실행)
 - [게시글 작성법](#게시글-작성법)
   - [게시글 기본 구조 만들기](#게시글-기본-구조-만들기)
@@ -22,10 +25,40 @@
 
 ### Hugo 설치
 
-Homebrew를 통해 Hugo를 설치합니다.
+#### macOS
+
+[Homebrew](https://brew.sh/)를 통해 Hugo를 설치합니다.
 
 ```bash
 $ brew install hugo
+```
+
+아래의 버전 확인 명령어로 Hugo가 잘 설치 되었는지 확인합니다.
+
+```bash
+$ hugo version
+```
+
+#### Windows
+
+[Scoop](https://scoop.sh/)을 통해 Hugo를 설치합니다.
+
+```bash
+$ scoop install hugo-extended
+```
+
+아래의 버전 확인 명령어로 Hugo가 잘 설치 되었는지 확인합니다.
+
+```bash
+$ hugo version
+```
+
+#### Linux
+
+Snap을 통해 Hugo를 설치합니다.
+
+```bash
+$ snap install hugo --channel=extended
 ```
 
 아래의 버전 확인 명령어로 Hugo가 잘 설치 되었는지 확인합니다.
