@@ -1,10 +1,13 @@
+@import 'fonts';
+
 :root {
+    --base-font-family: "Spoqa Han Sans Neo", var(--sys-font-family);
     --card-padding: 40px;
 }
 
 [data-scheme="light"] {
-    --pre-background-color: #272822;
     --pre-text-color: #f8f8f2;
+    --pre-background-color: #272822;
 }
 
 .widget-icon {
@@ -37,7 +40,24 @@
     margin-right: 20px;
 }
 
-.site-name svg {
-    vertical-align: bottom;
-    margin-right: 4px;
+.site-name {
+    height: 35px;
+
+    @media (max-width: $on-desktop-large) {
+        height: 30px;
+    }
+
+    svg {
+        vertical-align: text-top;
+        margin-right: 4px;
+        margin-bottom: -12px;
+        width: 25px;
+        height: 25px;
+        stroke-width: 2.5;
+
+        @media (max-width: $on-desktop-large) {
+            width: 20px;
+            height: 20px;
+        }
+    }
 }
