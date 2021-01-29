@@ -25,15 +25,19 @@
     }
 }
 
-.site-name.with-icon {
-    margin-bottom: -5px;
-}
-
-
 .container {
     &.compact {
         .left-sidebar.width-auto {
             width: auto;
         }
     }
+}
+
+.menu.compact li svg {
+    margin-right: 20px;
+}
+
+.site-name svg {
+    vertical-align: bottom;
+    margin-right: 4px;
 }
