@@ -2,7 +2,14 @@
 
 :root {
     --base-font-family: "Lato", "Spoqa Han Sans",  var(--sys-font-family);
+
     --card-padding: 40px;
+    @media (max-width: $on-tablet) {
+        --card-padding: 32px;
+    }
+    @media (max-width: $on-phone) {
+        --card-padding: 24px;
+    }
 }
 
 [data-scheme="light"] {
@@ -16,7 +23,11 @@
 
 .main-article {
     & .article-title {
-        font-size: 3.8rem;
+        font-size: 3.2rem;
+
+        @media (min-width: $on-tablet) {
+            font-size: 3.6rem;
+        }
 
         @media (min-width: $on-desktop-large) {
             font-size: 4rem;
