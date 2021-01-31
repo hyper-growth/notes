@@ -80,7 +80,7 @@ params:
         opengraph:
             enabled: true
             local: true
-            src: og-image.jpg
+            src: og-image.png
 
     colorScheme:
         # Display toggle
