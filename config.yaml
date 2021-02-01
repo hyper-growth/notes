@@ -51,7 +51,7 @@ params:
         enabled: true
         provider: utterances
         utterances:
-            repo: hphkinc/notes
+            repo: hphkinc/notes-comments
             issueTerm: pathname
             label:
             theme: preferred-color-scheme
