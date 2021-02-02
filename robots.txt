@@ -1,1 +1,5 @@
 User-agent: *
+Disallow: /page/
+Disallow: /search/
+
+Sitemap: https://notes.hphk.io/sitemap.xml
