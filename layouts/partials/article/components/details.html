@@ -1,0 +1,44 @@
+<div class="article-details">
+    {{ if .Params.categories }}
+    <header class="article-category">
+        {{ range (.GetTerms "categories") }}
+            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                {{ .LinkTitle }}
+            </a>
+        {{ end }}
+    </header>
+    {{ end }}
+
+    <h2 class="article-title">
+        <a href="{{ .RelPermalink }}">
+            {{- .Title -}}
+        </a>
+    </h2>
+
+    {{ with .Params.description }}
+    <h3 class="article-subtitle">
+        {{ . }}
+    </h3>
+    {{ end }}
+
+    <footer class="article-details-footer">
+        {{- if .Params.authors -}}
+            {{ range (.GetTerms "authors") }}
+            <figure class="article-author">
+                {{- if .Params.image -}}
+                    <img src="{{- .RelPermalink -}}{{- .Params.image -}}" alt=""/>
+                {{- end -}}
+                <figcaption><a href="{{ .RelPermalink }}">{{ .Params.title }}</a></figcaption>
+            </figure>
+            {{ end }}
+        {{- end -}}
+        {{- if not .Date.IsZero -}}
+        <div class="article-time">
+            {{ partial "helper/icon" "clock" }}
+            <time class="article-time--published">
+                {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+            </time>
+        </div>
+        {{- end -}}
+    </footer>
+</div>

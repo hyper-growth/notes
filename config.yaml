@@ -5,9 +5,11 @@ languageCode: ko-kr
 theme: hugo-theme-stack
 paginate: 5
 
-# Change it to your Disqus shortname before using
-# disqusShortname: hugo-theme-stack
 
+taxonomies:
+  author: "authors"
+  tag: "tags"
+  category: "categories"
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
 DefaultContentLanguage: en

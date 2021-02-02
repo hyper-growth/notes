@@ -7,6 +7,7 @@ lastmod: "2021-02-02 13:51:00+0900"
 categories: ["tool"]
 tags: ["git", "git bash", "windows"]
 image: "images/windows-terminal.jpeg"
+authors: ["Zzulu"]
 draft: false
 ---
 
