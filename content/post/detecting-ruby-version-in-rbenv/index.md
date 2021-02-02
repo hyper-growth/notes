@@ -3,6 +3,7 @@ title: "rbenv가 ruby 버전을 찾는 순서"
 slug: "detecting-ruby-version-in-rbenv"
 description: "rbenv가 사용하게 될 ruby 버전은 어떻게 결정되는지 알아보자"
 date: "2021-01-28 15:50:00+0900"
+lastmod: "2021-01-28 15:50:00+0900"
 categories: ["Tool"]
 tags: ["ruby", "rbenv"]
 draft: false

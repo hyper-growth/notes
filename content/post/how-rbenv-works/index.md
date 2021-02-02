@@ -3,6 +3,7 @@ title: "rbenv의 동작 원리"
 slug: "how-rbenv-works"
 description: "Ruby 버전 관리자인 rbenv의 동작 원리를 파헤쳐보자."
 date: "2021-01-28 15:53:00+0900"
+lastmod: "2021-01-28 15:53:00+0900"
 categories: ["Tool"]
 tags: ["ruby"]
 draft: false
