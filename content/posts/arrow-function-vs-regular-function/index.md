@@ -1,6 +1,6 @@
 ---
-title: "Arrow Function vs Regular Function"
 slug: "arrow-function-vs-regular-function"
+title: "Arrow Function vs Regular Function"
 description: "JavaScript의 Arrow Function과 Regular Function의 차이에 대해 알아보자."
 date: "2021-01-20 16:57:00+0900"
 lastmod: "2021-01-20 16:57:00+0900"

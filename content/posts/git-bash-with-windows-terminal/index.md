@@ -1,4 +1,5 @@
 ---
+slug: "git-bash-with-windows-terminal"
 title: "Windows Terminal에서 Git Bash 사용하기"
 description: "Windows Terminal에 Git Bash를 추가하여 사용하는 방법에 대해 알아봅시다."
 date: "2021-01-21 15:10:00+0900"
