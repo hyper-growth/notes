@@ -1,4 +1,4 @@
-<aside class='sidebar left-sidebar sticky {{ if eq .Section "post" }}width-auto{{ end }}'>
+<aside class='sidebar left-sidebar sticky {{ if eq .Section "posts" }}width-auto{{ end }}'>
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="{{ T `toggleMenu` }}">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -28,7 +28,7 @@
             </figure>
         {{ end }}
 
-        {{ if ne .Section "post" }}
+        {{ if ne .Section "posts" }}
         <h1 class="site-name"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
         {{ else }}
         <h1 class="site-name"><a href="{{ .Site.BaseURL }}">{{ partial "helper/icon" "box" }}</a></h1>
@@ -38,7 +38,7 @@
 
 
 
-    <ol class='menu {{ if eq .Section "post" }}compact{{ end }}' id="main-menu">
+    <ol class='menu {{ if eq .Section "posts" }}compact{{ end }}' id="main-menu">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
@@ -48,7 +48,7 @@
                 {{ if .Pre }}
                     {{ partial "helper/icon" .Pre }}
                 {{ end }}
-                {{ if ne $currentPage.Section "post" }}
+                {{ if ne $currentPage.Section "posts" }}
                 <span>{{- .Name -}}</span>
                 {{ end }}
             </a>
@@ -59,7 +59,7 @@
             <li id="dark-mode-toggle">
                 {{ partial "helper/icon" "toggle-left" }}
                 {{ partial "helper/icon" "toggle-right" }}
-                {{ if ne $currentPage.Section "post" }}
+                {{ if ne $currentPage.Section "posts" }}
                 <span>Appearance</span>
                 {{ end }}
             </li>
