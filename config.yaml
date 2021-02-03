@@ -26,7 +26,7 @@ params:
     favicon: /favicon.ico
 
     footer:
-        author: HPHK Inc.
+        author: Happy Hacking, Inc.
         since: 2021
         customText: 
 
