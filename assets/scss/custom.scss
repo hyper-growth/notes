@@ -96,6 +96,10 @@
             margin-right: 12px;
         }
 
+        a {
+            color: var(--card-text-color-secondary);
+        }
+
         &:last-of-type  {
             margin-right: 32px;
         }
