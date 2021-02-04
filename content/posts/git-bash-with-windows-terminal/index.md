@@ -9,6 +9,7 @@ tags: ["git", "git bash", "windows"]
 image: "images/windows-terminal.jpeg"
 authors: ["Zzulu"]
 draft: false
+toc: true
 ---
 
 > Git Bash가 설치되어 있어야 합니다.

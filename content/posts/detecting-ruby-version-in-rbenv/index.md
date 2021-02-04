@@ -7,6 +7,7 @@ lastmod: "2021-01-28 15:50:00+0900"
 categories: ["Tool"]
 tags: ["ruby", "rbenv"]
 draft: false
+toc: false
 ---
 
 rbenv는 아래의 순서대로 루비 버전을 찾는다. `[version]`은 **2.4.4**와 같은 형식을 사용한다.

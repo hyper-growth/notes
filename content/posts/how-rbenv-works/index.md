@@ -7,6 +7,7 @@ lastmod: "2021-01-28 15:53:00+0900"
 categories: ["Tool"]
 tags: ["ruby"]
 draft: false
+toc: true
 ---
 
 rbenv는 설치된 모든 버전의 ruby를 `~/.rbenv/versions` 디렉토리 아래에 둔다.
