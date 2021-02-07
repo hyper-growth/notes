@@ -1,6 +1,3 @@
 User-agent: *
-Disallow: /authors/
-Disallow: /page/
-Disallow: /search/
 
 Sitemap: https://notes.hphk.io/sitemap.xml
