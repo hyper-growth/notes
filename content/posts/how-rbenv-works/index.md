@@ -90,12 +90,12 @@ shim 파일 자체로는 많은 일을 하지 않는다. 환경 변수 `RBENV_DI
 `rbenv exec rails s`를 실행하게 되면 다음과 같은 과정을 거쳐 실행된다.
 
 1. 어떤 버전의 ruby를 사용할 지 찾는다. `rbenv version-name` 명령어를 입력하면 현재 위치에서 사용하게 되는 ruby 버전을 보여주는데 이 버전을 사용한다. ([rbenv가 ruby 버전을 찾는 순서](/2018/06/21/Detecting-Ruby-Version-In-rbenv.html))
-```
+```sh
 RBENV_VERSION=2.4.1
 ```
 
 2. 어떤 명령어를 실행할지 exec script의 첫 argument에서 찾는다. `rbenv exec rails s`를 실행했으므로 지금 상황에서는 `rails` 명령어를 나타낸다.
-```
+```sh
 RBENV_COMMAND=rails
 ```
 
@@ -104,18 +104,18 @@ RBENV_COMMAND=rails
 $ rbenv which rails
 /Users/zzulu/.rbenv/versions/2.4.1/bin/rails
 ```
-```
+```sh
 RBENV_COMMAND_PATH=/Users/zzulu/.rbenv/versions/2.4.1/bin/rails
 ```
 
 4. `RBENV_COMMAND_PATH`로부터 `RBENV_BIN_PATH`를 생성하여 환경 변수 `PATH`의 앞에 붙인다.
-```
+```sh
 RBENV_BIN_PATH=/Users/shot/.rbenv/versions/2.4.1/bin
 export PATH="${RBENV_BIN_PATH}:${PATH}"
 ```
 
 5. 최종적으로 원본 명령어가 실행된다. 시스템은 shim이 아닌 원래의 binary를 찾아 실행한다.
-```
+```sh
 rails s
 ```
 
