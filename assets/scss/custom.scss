@@ -43,14 +43,42 @@
 
 .container {
     &.compact {
-        .left-sidebar.width-auto {
-            width: auto;
+        @media (min-width: $on-phone) {
+            .left-sidebar {
+                &.width-auto {
+                    width: auto;
+                }
+
+                .site-name {
+                    & > .on-phone {
+                        display: none;
+                    }
+                }
+
+                .menu {
+                    &.compact {
+                        li svg {
+                            margin-right: 20px;
+                        }
+
+                        .hide {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: $on-phone - 1) {
+            .left-sidebar {
+                .site-name {
+                    & > .on-tablet {
+                        display: none;
+                    }
+                }
+            }
         }
     }
-}
-
-.menu.compact li svg {
-    margin-right: 20px;
 }
 
 .site-name {

@@ -28,11 +28,14 @@
             </figure>
         {{ end }}
 
-        {{ if ne .Section "posts" }}
-        <h1 class="site-name"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-        {{ else }}
-        <h1 class="site-name"><a href="{{ .Site.BaseURL }}">{{ partial "helper/icon" "box" }}</a></h1>
-        {{ end }}
+        <h1 class="site-name">
+            {{ if eq .Section "posts" }}
+                <a href="{{ .Site.BaseURL }}" class="on-tablet">{{ partial "helper/icon" "box" }}</a>
+                <a href="{{ .Site.BaseURL }}" class="on-phone">{{ .Site.Title }}</a>
+            {{ else }}
+                <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            {{ end }}
+        </h1>
         <!-- <h2 class="site-description">{{ .Site.Params.sidebar.subtitle }}</h2> -->
     </header>
 
@@ -48,9 +51,7 @@
                 {{ if .Pre }}
                     {{ partial "helper/icon" .Pre }}
                 {{ end }}
-                {{ if ne $currentPage.Section "posts" }}
-                <span>{{- .Name -}}</span>
-                {{ end }}
+                <span class='{{ if eq $currentPage.Section "posts" }}hide{{ end }}'>{{- .Name -}}</span>
             </a>
         </li>
         {{ end }}
@@ -59,9 +60,7 @@
             <li id="dark-mode-toggle">
                 {{ partial "helper/icon" "toggle-left" }}
                 {{ partial "helper/icon" "toggle-right" }}
-                {{ if ne $currentPage.Section "posts" }}
-                <span>Appearance</span>
-                {{ end }}
+                <span class='{{ if eq $currentPage.Section "posts" }}hide{{ end }}'>Appearance</span>
             </li>
         {{ end }}
     </ol>
