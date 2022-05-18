@@ -107,8 +107,6 @@ toc: true
 ```json
 {
 
-    "defaultProfile": "[guid]",    
-
     "defaultProfile": "{124fc1da-dadc-4276-9c4e-f0524ba57a49}",
 
 }
